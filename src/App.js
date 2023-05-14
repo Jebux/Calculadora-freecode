@@ -12,7 +12,7 @@ function App() {
 
   const agregarInput = val => {
     setInput(input + val);
-  }
+  };
 
   const calcularResultado =() =>{
     if(input){
@@ -20,9 +20,7 @@ function App() {
     }else{
       alert('Por favor ingrese valores para realizar los cálculos.')
     }
-
-
-  }
+  };
 
 
   return (
